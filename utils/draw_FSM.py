@@ -98,7 +98,7 @@ if __name__ == '__main__':
            fichier = sys.argv[1]
       else:
 	   print "Please give a file path"
-	   exit(1)	   
+	   sys.exit(1)	   
 
       visi = MyVisitorOfClasses(fichier)
       graphs = visi.analyze()
